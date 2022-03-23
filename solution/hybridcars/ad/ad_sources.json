@@ -1,11 +1,16 @@
 {
-  "Conservative Cases": {
-    "Navigant Research": "ad_Navigant_Research.csv",
-    "Based on: IEA ETP 2016 4DS": "ad_based_on_IEA_ETP_2016_4DS.csv",
-    "Based on Clean Energy Manufacturing Analysis Center": "ad_based_on_Clean_Energy_Manufacturing_Analysis_Center.csv"
-  },
-  "Ambitious Cases": {
-    "Based on: IEA ETP 2016 2DS": "ad_based_on_IEA_ETP_2016_2DS.csv",
-    "Interpolation Based on World Energy Council 2011 - Global Transport Scenarios 2050": "ad_Interpolation_based_on_World_Energy_Council_2011_Global_Transport_Scenarios_2050.csv"
-  }
+    "Baseline Cases": {
+        "Navigant Research": "ad_Navigant_Research.csv",
+        "OPEC, 2021, World oil outlook": "ad_OPEC_2021_World_oil_outlook.csv"
+    },
+    "Conservative Cases": {
+        "IEA2017, Energy technology perspective, 2DS scenario": "ad_IEA2017_Energy_tech_70fa2f39.csv",
+        "Based on: IEA ETP 2016 4DS": "ad_bon_IEA_ETP_2016_4DS.csv",
+        "Based on Clean Energy Manufacturing Analysis Center": "ad_bon_Clean_Energy_Ma_d42d7c33.csv"
+    },
+    "Ambitious Cases": {
+        "Based on: IEA ETP 2016 2DS": "ad_bon_IEA_ETP_2016_2DS.csv",
+        "Interpolation Based on World Energy Council 2011 - Global Transport Scenarios 2050": "ad_Interpolation_bon_W_80c34252.csv",
+        "IEA2017, Energy technology perspective, RTS scenario": "ad_IEA2017_Energy_tech_8691289c.csv"
+    }
 }

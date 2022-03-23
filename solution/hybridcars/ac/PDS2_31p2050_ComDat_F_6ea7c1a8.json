@@ -1,0 +1,116 @@
+{
+    "name": "PDS2-31p2050-ComDat-FullyIntegrated",
+    "solution_category": "reduction",
+    "vmas": "VMAs",
+    "creation_date": "2021-10-14 21:48:21",
+    "description": "Adoptions are the Conservative cases and the Car Occupancy variables are integrated with the EV and Carpooling solutions.",
+    "report_start_year": 2020,
+    "report_end_year": 2050,
+    "conv_2014_cost": 23303.837274588328,
+    "conv_first_cost_efficiency_rate": 0.0,
+    "conv_lifetime_capacity": {
+        "value": 351014.164251133,
+        "statistic": "mean"
+    },
+    "conv_avg_annual_use": {
+        "value": 23626.1493072645,
+        "statistic": "mean"
+    },
+    "conv_var_oper_cost_per_funit": 0.01857549824181185,
+    "conv_fixed_oper_cost_per_iunit": {
+        "value": 633.020671611085,
+        "statistic": "mean"
+    },
+    "conv_fuel_cost_per_funit": 0.0556275410988879,
+    "pds_2014_cost": 25832.957233567824,
+    "ref_2014_cost": 25832.957233567824,
+    "soln_first_cost_efficiency_rate": 0.0865,
+    "soln_first_cost_below_conv": false,
+    "soln_lifetime_capacity": {
+        "value": 351014.164251133,
+        "statistic": "mean"
+    },
+    "soln_avg_annual_use": {
+        "value": 23626.1493072645,
+        "xls cell formula": "F98"
+    },
+    "soln_var_oper_cost_per_funit": 0.00919390797225881,
+    "soln_fixed_oper_cost_per_iunit": {
+        "value": 633.020671611085,
+        "statistic": "mean"
+    },
+    "soln_fuel_cost_per_funit": 0.0313976563781618,
+    "npv_discount_rate": 0.0414,
+    "conv_annual_energy_used": 0.0,
+    "soln_energy_efficiency_factor": 0.0,
+    "soln_annual_energy_used": 0.0,
+    "conv_fuel_consumed_per_funit": {
+        "value": 0.0537123716471691,
+        "statistic": "mean"
+    },
+    "soln_fuel_efficiency_factor": {
+        "value": 0.435573535016642,
+        "statistic": "mean"
+    },
+    "conv_fuel_emissions_factor": 0.002273941593,
+    "soln_fuel_emissions_factor": 0.002273941593,
+    "conv_emissions_per_funit": 0.0,
+    "soln_emissions_per_funit": 0.0,
+    "conv_indirect_co2_per_unit": {
+        "value": 10.5701619338778,
+        "statistic": "mean"
+    },
+    "soln_indirect_co2_per_iunit": {
+        "value": 9.39600345257933,
+        "statistic": "mean"
+    },
+    "conv_indirect_co2_is_iunits": true,
+    "ch4_co2_per_funit": 0.0,
+    "ch4_is_co2eq": true,
+    "n2o_co2_per_funit": 0.0,
+    "n2o_is_co2eq": true,
+    "co2eq_conversion_source": "AR5 with feedback",
+    "emissions_use_co2eq": true,
+    "emissions_grid_source": "Meta-Analysis",
+    "emissions_grid_range": "Mean",
+    "source_until_2014": "ALL SOURCES",
+    "ref_source_post_2014": "Baseline Cases",
+    "pds_source_post_2014": "Drawdown TAM: PDS2 (Urban + Nonurban) after Mobility of All higher priority Solutions accounted for (Walking, Biking, E-bike, Public Transit, EV)",
+    "ref_base_adoption": {
+        "World": 353519167908.3458,
+        "OECD90": 0.0,
+        "Eastern Europe": 0.0,
+        "Asia (Sans Japan)": 0.0,
+        "Middle East and Africa": 0.0,
+        "Latin America": 0.0,
+        "China": 0.0,
+        "India": 0.0,
+        "EU": 0.0,
+        "USA": 0.0
+    },
+    "soln_pds_adoption_basis": "Existing Adoption Prognostications",
+    "soln_pds_adoption_regional_data": false,
+    "pds_adoption_final_percentage": {
+        "World": 0.0,
+        "OECD90": 0.0,
+        "Eastern Europe": 0.0,
+        "Asia (Sans Japan)": 0.0,
+        "Middle East and Africa": 0.0,
+        "Latin America": 0.0,
+        "China": 0.0,
+        "India": 0.0,
+        "EU": 0.0,
+        "USA": 0.0
+    },
+    "soln_pds_adoption_prognostication_source": "Conservative Cases",
+    "soln_pds_adoption_prognostication_trend": "3rd Poly",
+    "soln_pds_adoption_prognostication_growth": "Medium",
+    "soln_ref_adoption_basis": "Custom",
+    "soln_ref_adoption_custom_name": "Default REF Projection with Adjustment for Recent Historical Adoptions",
+    "soln_ref_adoption_regional_data": false,
+    "pds_adoption_use_ref_years": [
+        2015,
+        2016,
+        2017
+    ]
+}

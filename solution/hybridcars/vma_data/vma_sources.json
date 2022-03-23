@@ -1,132 +1,163 @@
 {
   "Current Adoption": {
-    "title": "Current Adoption",
-    "filename": "Current_Adoption.csv",
-    "stat_correction": true,
-    "units": "passenger-km"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "We exclude all values that do not conform to real market data of approximately 10 - 12 million HEV's on road.",
+    "units": "passenger-km",
+    "filename": "Current_Adoption.csv"
   },
   "CONVENTIONAL First Cost per Implementation Unit": {
-    "title": "CONVENTIONAL First Cost per Implementation Unit",
-    "filename": "CONVENTIONAL_First_Cost_per_Implementation_Unit.csv",
-    "use_weight": true,
-    "units": "US2014$/Car"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "Due to the complexity and the rapid changes in the car markets for all technologies, the prices are weighted across both regions and vehicular segments/models as far as available data allow. The Raw data take into account the segment weighting and the \"Weight\" column takes into account share of global sales (using GFEI 2017 data - IEA and ICCT (2019), \"Fuel Economy in Major Car Markets\", IEA, Paris, www.iea.org/topics/transport/gfei/report/). Due to lack of aggregate data on China, top sellign models were priced, weighted, and included. Total China weight = total Global weight of Chinese Auto Sales.",
+    "units": "US2014$/Car",
+    "filename": "CONVENTIONAL_First_Cost_per_Implementation_Unit.csv"
   },
   "SOLUTION First Cost per Implementation Unit": {
-    "title": "SOLUTION First Cost per Implementation Unit",
-    "filename": "SOLUTION_First_Cost_per_Implementation_Unit.csv",
-    "use_weight": true,
-    "units": "US2014$/Car"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "Weights are approximate segment market shares using sales data (2017, in thousands) See HEV Sales sheet.",
+    "units": "US2014$/Car",
+    "filename": "SOLUTION_First_Cost_per_Implementation_Unit.csv"
   },
   "CONVENTIONAL Lifetime Capacity": {
-    "title": "CONVENTIONAL Lifetime Capacity",
-    "filename": "CONVENTIONAL_Lifetime_Capacity.csv",
-    "stat_correction": true,
-    "units": "passenger-km/Car"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "",
+    "units": "passenger-km/Car",
+    "filename": "CONVENTIONAL_Lifetime_Capacity.csv"
   },
   "SOLUTION Lifetime Capacity": {
-    "title": "SOLUTION Lifetime Capacity",
-    "filename": "SOLUTION_Lifetime_Capacity.csv",
-    "stat_correction": true,
-    "units": "passenger-km/Car"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "The limited data on hybrid lifetimes suggest that hybrids have 31% longer lifetimes than conventionals. This seems high considering that hybrids might actually be more complicated machines with two powertrains, so perhaps there is bias in the samples used for both car types. We therefore decided to use the conventional lifetimes (in vehicle km) for both car types since this 31% increase may incorrectly bias all the results. The solution lifetime in pass-km may be higher due to larger passenger occupancy though.",
+    "units": "passenger-km/Car",
+    "filename": "SOLUTION_Lifetime_Capacity.csv"
   },
   "CONVENTIONAL Average Annual Use": {
-    "title": "CONVENTIONAL Average Annual Use",
-    "filename": "CONVENTIONAL_Average_Annual_Use.csv",
-    "stat_correction": true,
-    "units": "passenger-km/Car/year"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "ICCT calculates the weighted average of 16 countries and regions using data from the IEA and national country statistics.",
+    "units": "passenger-km/Car/year",
+    "filename": "CONVENTIONAL_Average_Annual_Use.csv"
   },
   "SOLUTION Average Annual Use": {
-    "title": "SOLUTION Average Annual Use",
-    "filename": "SOLUTION_Average_Annual_Use.csv",
-    "stat_correction": true,
-    "units": "passenger-km/Car/year"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "ICCT calculates the weighted average of 16 countries and regions using data from the IEA and national country statistics.",
+    "units": "passenger-km/Car/year",
+    "filename": "SOLUTION_Average_Annual_Use.csv"
   },
   "CONVENTIONAL Variable Operating Cost (VOM) per Functional Unit": {
-    "title": "CONVENTIONAL Variable Operating Cost (VOM) per Functional Unit",
-    "filename": "CONVENTIONAL_Variable_Operating_Cost_VOM_per_Functional_Unit.csv",
-    "stat_correction": true,
-    "units": "US2014$/passenger-km"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "Operating costs are taken here as only Maintenance costs. Fuel costs are entered in the model on the Advanced Controls separately. Excluded values represent older data points from sources that have been updated.",
+    "units": "US2014$/passenger-km",
+    "filename": "CONVENTIONAL_Variable_Operating_Cost_VOM_per_Fu_1a410c96.csv"
   },
   "SOLUTION Variable Operating Cost (VOM) per Functional Unit": {
-    "title": "SOLUTION Variable Operating Cost (VOM) per Functional Unit",
-    "filename": "SOLUTION_Variable_Operating_Cost_VOM_per_Functional_Unit.csv",
-    "stat_correction": true,
-    "units": "US2014$/passenger-km"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "Operating costs are taken here as only Maintenance costs. Fuel costs are entered in the model on the Main Controls separately.",
+    "units": "US2014$/passenger-km",
+    "filename": "SOLUTION_Variable_Operating_Cost_VOM_per_Functional_Unit.csv"
   },
   "CONVENTIONAL Fixed Operating Cost (FOM)": {
-    "title": "CONVENTIONAL Fixed Operating Cost (FOM)",
-    "filename": "CONVENTIONAL_Fixed_Operating_Cost_FOM.csv",
-    "stat_correction": true,
-    "units": "US2014$/year/Car"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "This is estimated insurance rates for cars. Exchange Rates obtained from www.xe.com on 16Jan2017. Monthly insurance converted to yearly. We assume that HEV and ICE have same insurance rates.",
+    "units": "US2014$/year/Car",
+    "filename": "CONVENTIONAL_Fixed_Operating_Cost_FOM.csv"
   },
   "SOLUTION Fixed Operating Cost (FOM)": {
-    "title": "SOLUTION Fixed Operating Cost (FOM)",
-    "filename": "SOLUTION_Fixed_Operating_Cost_FOM.csv",
-    "stat_correction": true,
-    "units": "US2014$/year/Car"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "This is estimated insurance rates for cars. Exchange Rates obtained from www.xe.com on 16Jan2017. Monthly insurance converted to yearly. We assume that HEV and ICE have same insurance rates.",
+    "units": "US2014$/year/Car",
+    "filename": "SOLUTION_Fixed_Operating_Cost_FOM.csv"
   },
   "CONVENTIONAL Fuel Consumed per Functional Unit": {
-    "title": "CONVENTIONAL Fuel Consumed per Functional Unit",
-    "filename": "CONVENTIONAL_Fuel_Consumed_per_Functional_Unit.csv",
-    "stat_correction": true,
-    "units": "Liter/passenger-km"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "For UMTRI, which tracks the sales weighted US fuel economy, we averaged the last 12 months available (until the latest data of May 2016). Atabani's work requires some interpretation. The Japanese figure is an estimate for 2015 by the Japanese car manufacturers association, but as the Japanese Government's fuel economy targets are mandatory, we can take this as given. The European figure is an average of 2006 performance range limits (9.8-16.4km/l). Note that it's appropriate to use an old source for some estimates if they are for \"new Car Sales\" in a region as the average age for a fleet ranges from around 5 (China) to 7.5 (EU) to 11 (USA).",
+    "units": "Liter/ passenger-km",
+    "filename": "CONVENTIONAL_Fuel_Consumed_per_Functional_Unit.csv"
   },
   "SOLUTION Fuel Efficiency Factor": {
-    "title": "SOLUTION Fuel Efficiency Factor",
-    "filename": "SOLUTION_Fuel_Efficiency_Factor.csv",
-    "stat_correction": true,
-    "units": "%"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "",
+    "units": "%",
+    "filename": "SOLUTION_Fuel_Efficiency_Factor.csv"
   },
   "CONVENTIONAL Indirect CO2 Emissions per Unit": {
-    "title": "CONVENTIONAL Indirect CO2 Emissions per Unit",
-    "filename": "CONVENTIONAL_Indirect_CO2_Emissions_per_Unit.csv",
-    "stat_correction": true,
-    "units": "t CO2-eq/Car"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "",
+    "units": "t CO2-eq/ Car",
+    "filename": "CONVENTIONAL_Indirect_CO2_Emissions_per_Unit.csv"
   },
   "SOLUTION Indirect CO2 Emissions per Unit": {
-    "title": "SOLUTION Indirect CO2 Emissions per Unit",
-    "filename": "SOLUTION_Indirect_CO2_Emissions_per_Unit.csv",
-    "stat_correction": true,
-    "units": "t CO2-eq/Car"
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "",
+    "units": "t CO2-eq/ Car",
+    "filename": "SOLUTION_Indirect_CO2_Emissions_per_Unit.csv"
   },
   "Urban Travel TAM - Current": {
-    "title": "Urban Travel TAM - Current",
-    "filename": "Urban_Travel_TAM_Current.csv",
-    "stat_correction": true
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "IEA's 2016 data is not split by urban vs nonurban. 1) We use IEA's 2012 data which has both urban and non-urban. 2) We find the ratio of urban to nonurban pass-km (assuming all urban is \"interurban\" and hence rural is minimal) . 3) this ratio is used to split the IEA (2016) total passenger-km into urban and non-urban(interurban). ITDP Highshift has some extreme assumptions that may not apply to Drawdown.",
+    "units": "",
+    "filename": "Urban_Travel_TAM_Current.csv"
   },
   "Urban Travel TAM - Projected": {
-    "title": "Urban Travel TAM - Projected",
-    "filename": "Urban_Travel_TAM_Projected.csv",
-    "stat_correction": true
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "IEA's 2016 data is not split by urban vs nonurban. 1) We use IEA's 2012 data which has both urban and non-urban. 2) We find the ratio of urban to nonurban pass-km (assuming all urban is \"interurban\" and hence rural is minimal) . 3) this ratio is used to split the IEA (2016) total passenger-km into urban and non-urban(interurban).  ITDP Highshift has some extreme assumptions that may not apply to Drawdown.",
+    "units": "",
+    "filename": "Urban_Travel_TAM_Projected.csv"
   },
   "Interurban Travel TAM - Current": {
-    "title": "Interurban Travel TAM - Current",
-    "filename": "Interurban_Travel_TAM_Current.csv",
-    "stat_correction": true
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "IEA's 2016 data is not split by urban vs nonurban. 1) We use IEA's 2012 data which has both urban and non-urban. 2) We find the ratio of urban to nonurban pass-km (assuming all urban is \"interurban\" and hence rural is minimal) . 3) this ratio is used to split the IEA (2016) total passenger-km into urban and non-urban(interurban).",
+    "units": "",
+    "filename": "Interurban_Travel_TAM_Current.csv"
   },
   "Interurban Travel TAM - Projected": {
-    "title": "Interurban Travel TAM - Projected",
-    "filename": "Interurban_Travel_TAM_Projected.csv",
-    "stat_correction": true
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "IEA's 2016 data is not split by urban vs nonurban. 1) We use IEA's 2012 data which has both urban and non-urban. 2) We find the ratio of urban to nonurban pass-km (assuming all urban is \"interurban\" and hence rural is minimal) . 3) this ratio is used to split the IEA (2016) total passenger-km into urban and non-urban(interurban).",
+    "units": "",
+    "filename": "Interurban_Travel_TAM_Projected.csv"
   },
   "Average Global Car Occupancy - Conventional": {
-    "title": "Average Global Car Occupancy - Conventional",
-    "filename": "Average_Global_Car_Occupancy_Conventional.csv",
-    "stat_correction": true
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "ICCT used weighted averages of 16 world regions captured with IEA and local transportation authority data.",
+    "units": "",
+    "filename": "Average_Global_Car_Occupancy_Conventional.csv"
   },
   "Discount Rate: Households": {
-    "title": "Discount Rate: Households",
-    "filename": "Discount_Rate_Households.csv",
-    "stat_correction": true
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "In some cases in the literature it is specifically indicated that a distinct discount rate is appropriate when applied to investment decisions made at a household level. The household level discount rate is directly related to decision-making at a household level and likely varies greatly across different regions of the world.  Taking the numbers found in the literature above comprises a conservative case.  Without distortions this discount rate would be equivalent to the interest rate afforded by alternative investments.  Discount rates reported in the literature that are used for policy decisions are not necessarily relevant for evaluating household level financial investment decisions.  These values represent a conservative case and, due to uncertainty, lower and higher discounting rates should probably be used for sensitivity analysis.",
+    "units": "",
+    "filename": "Discount_Rate_Households.csv"
   },
   "Learning Rate": {
-    "title": "Learning Rate",
-    "filename": "Learning_Rate.csv",
-    "stat_correction": true
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "",
+    "units": "",
+    "filename": "Learning_Rate.csv"
   },
   "Average Global Car Occupancy - Solution": {
-    "title": "Average Global Car Occupancy - Solution",
-    "filename": "Average_Global_Car_Occupancy_Solution.csv",
-    "stat_correction": true
+    "use_weight": false,
+    "bound_correction": false,
+    "description": "ICCT used weighted averages of 16 world regions captured with IEA and local transportation authority data. We change this value for Solution for the scenarios.",
+    "units": "",
+    "filename": "Average_Global_Car_Occupancy_Solution.csv"
   }
 }
